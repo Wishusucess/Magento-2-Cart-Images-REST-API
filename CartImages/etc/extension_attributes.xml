@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!---
+/**
+ * Category: Wishusucess_CartImages
+ * Developer: Hemant Singh Magento 2x Developer
+ * Website: http://wwww.wishusucess.com
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
+    <extension_attributes for="Magento\Quote\Api\Data\CartItemInterface">
+      <attribute code="image" type="string" />
+    </extension_attributes>
+</config>
